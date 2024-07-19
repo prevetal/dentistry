@@ -1,0 +1,351 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 14px;
+        --font_size_title: 26px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .submit_btn
+    {
+        font-size: 17px;
+
+        min-height: 49px;
+        padding: 15px 30px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .info
+    {
+        padding: 24px;
+    }
+
+
+    .first_section .info .title
+    {
+        font-size: 28px;
+    }
+
+
+
+    .first_section .before_after
+    {
+        height: 360px;
+    }
+
+
+
+    .first_section .pluses .item
+    {
+        padding: 20px 24px;
+    }
+
+
+    .first_section .pluses .label
+    {
+        font-size: 13px;
+    }
+
+
+    .first_section .pluses .name
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*------------------------
+        What_is_All-on-4_6
+    ------------------------*/
+    .what_is_All-on-4_6 .data
+    {
+        padding: 24px;
+    }
+
+
+    .what_is_All-on-4_6 .video .link .icon
+    {
+        top: -4px;
+
+        width: 40px;
+        height: 40px;
+    }
+
+
+    .what_is_All-on-4_6 .video .link .icon:after
+    {
+        left: 4px;
+
+        width: 14px;
+        height: 16px;
+
+        border-top-width: 8px;
+        border-bottom-width: 8px;
+        border-left-width: 14px;
+    }
+
+
+
+    /*------------------
+        Which method
+    ------------------*/
+    .which_method .info
+    {
+        padding: 24px;
+    }
+
+
+    .which_method .info .desc
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .which_method .form
+    {
+        padding: 24px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .item
+    {
+        padding: 24px;
+    }
+
+
+    .advantages .item .name
+    {
+        font-size: 17px;
+        line-height: 23px;
+    }
+
+
+
+    /*-----------
+        Types
+    -----------*/
+    .types .type .items > * + *
+    {
+        margin-top: 16px;
+    }
+
+
+    .types .type .btn
+    {
+        padding: 15px 60px;
+    }
+
+
+
+    /*-----------
+        Steps
+    -----------*/
+    .steps .info .row > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+    .steps .step
+    {
+        padding: 24px;
+    }
+
+
+    .steps .step .name
+    {
+        font-size: 18px;
+    }
+
+
+    .steps .step .feature > *
+    {
+        padding-right: 12px;
+    }
+
+
+
+    /*----------------
+        Two visits
+    ----------------*/
+    .two_visits .data
+    {
+        padding: 24px 24px 310px;
+    }
+
+
+    .two_visits .info .items
+    {
+        margin-top: 30px;
+    }
+
+
+    .two_visits .form
+    {
+        left: 24px;
+
+        width: calc(100% - 48px);
+        max-width: calc(100% - 48px);
+    }
+
+
+    .two_visits .form .submit
+    {
+        width: 100%;
+    }
+
+
+    .two_visits .form .messengers
+    {
+        justify-content: center;
+
+        width: 100%;
+        margin-top: 16px;
+    }
+
+
+    .two_visits .form .agree
+    {
+        font-size: 10px;
+
+        text-align: center;
+    }
+
+
+
+    /*-------------------
+        USA standarts
+    -------------------*/
+    .USA_standarts .doctor
+    {
+        padding: 24px;
+    }
+
+
+    .USA_standarts .doctor .name
+    {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+
+    .USA_standarts .slider .title
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*-----------
+        Order
+    -----------*/
+    .order .data
+    {
+        padding: 24px;
+    }
+
+
+
+    /*------------
+        prices
+    ------------*/
+    .prices .item .features
+    {
+        column-gap: 0;
+        column-count: 1;
+    }
+
+
+
+    /*--------------------
+        Free admission
+    --------------------*/
+    .free_admission .data
+    {
+        padding: 24px 24px 310px;
+    }
+
+
+    .free_admission .info .items
+    {
+        margin-top: 30px;
+    }
+
+
+    .free_admission .form
+    {
+        left: 24px;
+
+        width: calc(100% - 48px);
+        max-width: calc(100% - 48px);
+    }
+
+
+    .free_admission .form .submit
+    {
+        width: 100%;
+    }
+
+
+    .free_admission .form .messengers
+    {
+        justify-content: center;
+
+        width: 100%;
+        margin-top: 16px;
+    }
+
+
+    .free_admission .form .agree
+    {
+        font-size: 10px;
+
+        text-align: center;
+    }
+
+
+
+    /*--------------
+        Benefits
+    --------------*/
+    .benefits .item .name
+    {
+        font-size: 17px;
+    }
+
+
+
+    /*-------------------
+        Photo gallery
+    -------------------*/
+    .photo_gallery .swiper-slide
+    {
+        width: 300px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data
+    {
+        padding: 24px;
+    }
+}

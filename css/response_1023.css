@@ -1,0 +1,526 @@
+@media print,
+(max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        position: fixed;
+        z-index: 101;
+        top: 0;
+        right: 100%;
+        left: auto;
+
+        width: 325px;
+        height: 100%;
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
+        margin: 0;
+        padding: 0;
+
+        transition: transform .3s linear;
+
+        background: #fff;
+    }
+
+    header.show
+    {
+        transform: translateX(100%);
+    }
+
+
+    header .scroll
+    {
+        overflow: auto;
+
+        height: 100%;
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
+        padding: 24px 0;
+
+        overscroll-behavior-y: contain;
+    }
+
+    header .scroll > *
+    {
+        width: 100%;
+    }
+
+
+
+    header .logo
+    {
+        display: none;
+    }
+
+
+    header .data
+    {
+        width: 100%;
+    }
+
+
+    header .location
+    {
+        display: block;
+        order: 2;
+
+        width: 100%;
+        margin-top: 30px;
+    }
+
+
+    header .phone
+    {
+        font-size: 20px;
+
+        order: 2;
+
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+    header .work_time
+    {
+        order: 2;
+
+        margin-top: 10px;
+        margin-left: 0;
+        padding: 0;
+
+        border: none;
+    }
+
+
+    header .messengers
+    {
+        order: 2;
+
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: 20px;
+    }
+
+
+    header .consult_btn
+    {
+        font-size: 15px;
+
+        order: 2;
+
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 0;
+        padding: 12px 20px;
+    }
+
+
+    header .menu
+    {
+        display: block;
+
+        width: 100%;
+        margin: 0;
+    }
+
+
+    header .menu_item + .menu_item
+    {
+        margin-top: 16px;
+    }
+
+
+    header .menu_item .btn
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header
+    {
+        display: block;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .info .title
+    {
+        font-size: 36px;
+    }
+
+
+    .first_section .info .btn
+    {
+        margin-top: 24px;
+        padding: 16px 40px;
+    }
+
+
+    .first_section .pluses .row
+    {
+        width: auto;
+        margin-left: -20px;
+    }
+
+
+    .first_section .pluses .row > *
+    {
+        width: calc(50% - 20px);
+        margin-left: 20px;
+    }
+
+
+
+    .first_section .before_after
+    {
+        position: relative;
+        right: 0;
+        bottom: 0;
+
+        width: 100%;
+        height: 440px;
+        margin-top: 20px;
+    }
+
+
+
+    /*------------------------
+        What_is_All-on-4_6
+    ------------------------*/
+    .what_is_All-on-4_6 .video .link .icon
+    {
+        top: 10px;
+        right: -10px;
+    }
+
+
+
+    /*------------------
+        Which method
+    ------------------*/
+    .which_method .info .doctor > *:first-child
+    {
+        margin-right: 24px;
+    }
+
+
+
+    /*-----------
+        Types
+    -----------*/
+    .types .data .row
+    {
+        margin-left: 0;
+        padding: 0;
+    }
+
+
+    .types .data .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .types .type.main
+    {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+
+    .types .data .row .img
+    {
+        left: -80px;
+
+        margin-left: 0;
+    }
+
+
+    .types .type .plus,
+    .types .type .minus
+    {
+        width: 100%;
+    }
+
+
+    .types .type .items > * + *
+    {
+        margin-top: 12px;
+    }
+
+
+    .types .type .plus br,
+    .types .type .minus br
+    {
+        display: none;
+    }
+
+
+    .types .gallery .row > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+    .types .gallery .row > *.tablet_hide
+    {
+        display: none;
+    }
+
+
+
+    /*-----------
+        Steps
+    -----------*/
+    .steps .info
+    {
+        border-radius: 24px;
+    }
+
+
+    .steps .info .row
+    {
+        align-content: flex-start;
+        align-items: flex-start;
+
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+
+    .steps .info .row > *
+    {
+        width: auto;
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .steps .info .item .label,
+    .steps .info .item .val
+    {
+        font-size: 12px;
+    }
+
+
+    .steps .anchors
+    {
+        display: none;
+    }
+
+
+    .steps .items
+    {
+        width: 100%;
+    }
+
+
+    .steps .step
+    {
+        padding: 40px;
+    }
+
+
+
+    /*--------------------
+        Our advantages
+    --------------------*/
+    .our_advantages .item .name
+    {
+        font-size: 17px;
+    }
+
+
+
+    /*----------------
+        Two visits
+    ----------------*/
+    .two_visits .info
+    {
+        width: 100%;
+    }
+
+
+    .two_visits .img
+    {
+        display: none;
+    }
+
+
+
+    /*-------------------
+        USA standarts
+    -------------------*/
+    .USA_standarts .doctor
+    {
+        padding: 40px 40px 40px 220px;
+    }
+
+
+    .USA_standarts .doctor .text
+    {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+
+    .USA_standarts .doctor .text:before
+    {
+        top: -24px;
+        left: -48px;
+
+        width: 120px;
+        height: 68px;
+    }
+
+
+
+    .USA_standarts .slider .image
+    {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        padding-bottom: 66.666%;
+    }
+
+
+    .USA_standarts .slider .data
+    {
+        width: 100%;
+        padding-bottom: 64px;
+    }
+
+
+    .USA_standarts .slider .controls
+    {
+        width: 100%;
+    }
+
+
+
+    /*-----------
+        Order
+    -----------*/
+    .order .data
+    {
+        padding: 40px;
+    }
+
+
+    .order .logo
+    {
+        display: none;
+    }
+
+
+    .order .info
+    {
+        width: calc(100% - 296px);
+    }
+
+
+    .order .form
+    {
+        width: 256px;
+    }
+
+
+
+    /*-------------
+        Results
+    -------------*/
+    .results .swiper
+    {
+        padding: 0;
+    }
+
+
+    .results .swiper-slide
+    {
+        visibility: visible;
+
+        width: 300px;
+
+        pointer-events: auto;
+
+        opacity: 1;
+    }
+
+
+    .results .swiper-button-next,
+    .results .swiper-button-prev
+    {
+        display: none;
+    }
+
+
+
+    .results .reviews .row > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+
+    /*------------
+        prices
+    ------------*/
+    .prices .item .info
+    {
+        width: calc(100% - 135px);
+    }
+
+
+    .prices .item .price
+    {
+        width: calc(100% - 135px);
+        margin-top: 16px;
+        margin-left: auto;
+
+        text-align: left;
+    }
+
+
+
+    /*--------------------
+        Free admission
+    --------------------*/
+    .free_admission .info
+    {
+        width: 100%;
+    }
+
+
+    .free_admission .img
+    {
+        display: none;
+    }
+
+
+
+    /*-------------------
+        Photo gallery
+    -------------------*/
+    .photo_gallery .swiper-slide
+    {
+        width: 400px;
+    }
+}

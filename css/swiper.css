@@ -1,0 +1,128 @@
+.swiper-button-next,
+.swiper-button-prev
+{
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 61px;
+    height: 61px;
+    margin: 0;
+
+    transform: none;
+
+    color: #000;
+    border-radius: 10px;
+    background: #fff;
+}
+
+
+.swiper-button-next:after,
+.swiper-button-prev:after
+{
+    display: none;
+}
+
+
+.swiper-button-next:before,
+.swiper-button-prev:before
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: -2px;
+
+    display: block;
+
+    width: 12px;
+    height: 16px;
+    margin: auto;
+
+    content: '';
+
+    border-top: 8px solid transparent;
+    border-right: 12px solid;
+    border-bottom: 8px solid transparent;
+}
+
+
+.swiper-button-next:before
+{
+    left: 2px;
+
+    transform: rotate(180deg);
+}
+
+
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet
+{
+    margin: 0;
+}
+
+
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction
+{
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: auto;
+    height: 11px;
+    margin: 0;
+}
+
+
+.swiper-pagination-bullet
+{
+    display: block;
+
+    width: 11px;
+    height: 11px;
+
+    transition: background .2s linear;
+
+    opacity: 1;
+    border-radius: 50%;
+    background: #c7aea6;
+}
+
+.swiper-pagination-bullet + .swiper-pagination-bullet
+{
+    margin-left: 11px !important;
+}
+
+
+.swiper-pagination-bullet:hover,
+.swiper-pagination-bullet.active
+{
+    background: #00d5f1;
+}
+
+
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet
+{
+    margin: 0;
+}

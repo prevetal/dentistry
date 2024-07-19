@@ -1,0 +1,1675 @@
+@media print,
+(max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 14px;
+        --font_size_title: 31px;
+    }
+
+
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+    .cont
+    {
+        padding: 0 24px;
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        width: 52px;
+        height: 52px;
+    }
+
+
+    .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction
+    {
+        height: 8px;
+    }
+
+
+    .swiper-pagination-bullet
+    {
+        width: 8px;
+        height: 8px;
+    }
+
+
+    .swiper-pagination-bullet + .swiper-pagination-bullet
+    {
+        margin-left: 8px !important;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding-bottom: 24px;
+    }
+
+
+    header .logo
+    {
+        width: 178px;
+        max-width: 100%;
+    }
+
+
+    header .logo .name
+    {
+        font-size: 11px;
+
+        margin-top: 10px;
+    }
+
+
+    header .data
+    {
+        width: calc(100% - 204px);
+    }
+
+
+    header .location
+    {
+        display: none;
+    }
+
+
+    header .phone
+    {
+        font-size: 22px;
+
+        margin-left: auto;
+    }
+
+
+    header .work_time
+    {
+        font-size: 12px;
+
+        padding: 4px 0 4px 10px;
+    }
+
+
+    header .work_time .holidays
+    {
+        font-size: inherit;
+    }
+
+
+    header .consult_btn
+    {
+        font-size: var(--font_size);
+
+        margin-left: 24px;
+        padding: 10px 15px;
+    }
+
+
+    header .menu
+    {
+        margin-top: 16px;
+    }
+
+
+    header .menu_item > a
+    {
+        font-size: 15px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .submit_btn
+    {
+        font-size: 16px;
+
+        min-height: 48px;
+        padding: 16px 24px;
+    }
+
+
+    .form .agree
+    {
+        font-size: 11px;
+
+        margin-top: 12px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .block_head .title
+    {
+        line-height: calc(100% + 8px);
+    }
+
+
+    .block_head .desc
+    {
+        font-size: 16px;
+
+        margin-top: 16px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        margin-bottom: 68px;
+    }
+
+
+    .first_section .info
+    {
+        padding: 40px;
+    }
+
+
+    .first_section .info .title
+    {
+        font-size: 40px;
+        line-height: 100%;
+    }
+
+
+    .first_section .info .desc
+    {
+        font-size: 16px;
+
+        margin-top: 20px;
+    }
+
+
+    .first_section .info .btn
+    {
+        font-size: 18px;
+
+        margin-top: 28px;
+        padding: 20px 36px;
+    }
+
+
+
+    .first_section .pluses .row
+    {
+        width: calc(50% - 10px);
+        margin-left: 0;
+    }
+
+
+    .first_section .pluses .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .first_section .pluses .item
+    {
+        padding: 24px 40px;
+    }
+
+
+    .first_section .pluses .logo
+    {
+        height: 64px;
+        margin-bottom: 16px;
+    }
+
+
+    .first_section .pluses .name
+    {
+        font-size: 18px;
+
+        margin-top: 8px;
+
+        letter-spacing: -.2px;
+    }
+
+
+
+    .first_section .before_after
+    {
+        right: 44px;
+
+        width: calc(50% - 55px);
+        height: calc(100% - 60px);
+    }
+
+
+    .first_section .before_after .label
+    {
+        font-size: 16px;
+
+        top: 24px;
+        left: -28px;
+
+        width: 100px;
+        max-width: 100%;
+        padding: 8px;
+    }
+
+    .first_section .before_after .label.after
+    {
+        right: -28px;
+    }
+
+
+
+    /*------------------------
+        What_is_All-on-4_6
+    ------------------------*/
+    .what_is_All-on-4_6
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .what_is_All-on-4_6 .data
+    {
+        padding: 40px;
+    }
+
+
+    .what_is_All-on-4_6 .info
+    {
+        width: 100%;
+    }
+
+
+    .what_is_All-on-4_6 .info .desc
+    {
+        font-size: 16px;
+
+        margin-top: 20px;
+    }
+
+
+    .what_is_All-on-4_6 .tabs
+    {
+        margin-top: 24px;
+    }
+
+
+    .what_is_All-on-4_6 .tabs .btn
+    {
+        font-size: 18px;
+    }
+
+
+    .what_is_All-on-4_6 .info .image
+    {
+        width: 160px;
+    }
+
+
+    .what_is_All-on-4_6 .info .text
+    {
+        width: calc(100% - 184px);
+        padding-right: 0;
+    }
+
+
+
+    .what_is_All-on-4_6 .video
+    {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+
+    .what_is_All-on-4_6 .video .link
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .what_is_All-on-4_6 .video .link .icon
+    {
+        top: 26px;
+        right: 0;
+
+        width: 70px;
+        height: 70px;
+    }
+
+
+    .what_is_All-on-4_6 .video .link .icon:after
+    {
+        width: 22px;
+        height: 24px;
+
+        border-top-width: 12px;
+        border-bottom-width: 12px;
+        border-left-width: 22px;
+    }
+
+
+    .what_is_All-on-4_6 .video .title
+    {
+        font-size: 22px;
+        line-height: 120%;
+    }
+
+
+    .what_is_All-on-4_6 .video .author
+    {
+        width: auto;
+    }
+
+
+    .what_is_All-on-4_6 .video .author .name
+    {
+        font-size: 16px;
+    }
+
+
+    .what_is_All-on-4_6 .video .author .post
+    {
+        font-size: 12px;
+        line-height: 16px;
+
+        margin-top: 4px;
+    }
+
+
+
+    /*------------------
+        Which method
+    ------------------*/
+    .which_method
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .which_method .data
+    {
+        margin-left: 130px;
+        padding-left: 64px;
+    }
+
+
+    .which_method .photo
+    {
+        top: 0;
+        left: -154px;
+
+        width: 220px;
+        height: 220px;
+
+        border-width: 20px;
+    }
+
+
+    .which_method .info
+    {
+        width: 100%;
+        padding: 40px;
+    }
+
+
+    .which_method .info .title
+    {
+        line-height: 100%;
+    }
+
+
+    .which_method .info .desc
+    {
+        font-size: 16px;
+
+        margin-top: 16px;
+    }
+
+
+    .which_method .info .doctor
+    {
+        margin-top: 20px;
+    }
+
+
+    .which_method .info .doctor > *:first-child
+    {
+        margin-right: 40px;
+    }
+
+
+    .which_method .info .doctor .post
+    {
+        font-size: 13px;
+
+        margin-bottom: 4px;
+    }
+
+
+    .which_method .info .doctor .name
+    {
+        font-size: 18px;
+    }
+
+
+    .which_method .info .doctor .val
+    {
+        font-size: 18px;
+    }
+
+
+    .which_method .info .doctor .experience
+    {
+        padding: 12px 16px;
+
+        border-radius: 20px;
+    }
+
+
+    .which_method .info .doctor .patients
+    {
+        margin-left: 12px;
+        padding: 12px 16px;
+
+        border-radius: 20px;
+    }
+
+
+    .which_method .info .doctor .row .val
+    {
+        margin-left: 8px;
+    }
+
+
+    .which_method .form
+    {
+        width: calc(100% + 64px);
+        max-width: calc(100% + 64px);
+        margin-left: -64px;
+        padding: 40px;
+
+        border-radius: 0 0 20px 20px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .advantages .row
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 48px);
+        margin: 0 -24px;
+        padding: 0 24px;
+
+        white-space: nowrap;
+
+        scroll-padding: 0 24px;
+        scroll-snap-type: x mandatory;
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+
+    .advantages .row::-webkit-scrollbar
+    {
+        display: none !important;
+
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+
+    .advantages .row::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .advantages .row > *
+    {
+        display: inline-block;
+
+        width: 300px;
+        max-width: none;
+        margin: 0;
+
+        vertical-align: top;
+        white-space: normal;
+
+        scroll-snap-align: start;
+    }
+
+    .advantages .row > * + *
+    {
+        margin-left: 16px;
+    }
+
+
+    .advantages .item .icon
+    {
+        width: 80px;
+        height: 80px;
+        padding: 18px;
+    }
+
+
+    .advantages .item .name
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+
+    .advantages .item .desc
+    {
+        margin-top: 16px;
+    }
+
+
+
+    /*-----------
+        Types
+    -----------*/
+    .types
+    {
+        margin-bottom: 60px;
+        padding: 60px 0;
+    }
+
+
+    .types .type
+    {
+        padding: 23px;
+    }
+
+
+    .types .type .name
+    {
+        font-size: 22px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .types .type .plus,
+    .types .type .minus
+    {
+        padding: 0;
+    }
+
+
+    .types .type.main
+    {
+        margin-top: -40px;
+        margin-bottom: -20px;
+        padding: 24px;
+    }
+
+
+    .types .type .btn
+    {
+        font-size: 16px;
+
+        padding: 12px 32px;
+    }
+
+
+    .types .data .row
+    {
+        padding: 40px 0;
+    }
+
+
+    .types .data .row .img
+    {
+        top: 0;
+
+        width: 280px;
+        height: 255px;
+        margin-left: -224px;
+    }
+
+
+    .types .gallery
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*-----------
+        Steps
+    -----------*/
+    .steps
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .steps .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .steps .info
+    {
+        margin-bottom: 24px;
+        padding: 24px;
+
+        border-radius: 92px;
+    }
+
+
+    .steps .info .item
+    {
+        display: block;
+
+        text-align: center;
+    }
+
+
+    .steps .info .item .icon
+    {
+        margin: 0 auto 12px;
+    }
+
+
+    .steps .info .item .icon + *
+    {
+        width: auto;
+    }
+
+
+    .steps .info .item .label
+    {
+        font-size: 13px;
+
+        margin-bottom: 4px;
+    }
+
+
+    .steps .info .item .val
+    {
+        font-size: 13px;
+    }
+
+
+
+    .steps .anchors
+    {
+        width: 280px;
+    }
+
+
+    .steps .anchors .btn
+    {
+        font-size: 18px;
+
+        padding: 4px;
+    }
+
+
+    .steps .items
+    {
+        width: calc(100% - 304px);
+    }
+
+
+    .steps .items > * + *
+    {
+        margin-top: 24px;
+    }
+
+
+    .steps .step
+    {
+        padding: 28px;
+    }
+
+
+    .steps .step > *:first-child
+    {
+        width: 100%;
+    }
+
+
+    .steps .step .name
+    {
+        font-size: 22px;
+    }
+
+
+    .steps .step .desc
+    {
+        font-size: 15px;
+
+        margin-top: 16px;
+    }
+
+
+    .steps .step .feature
+    {
+        display: flex;
+        align-content: stretch;
+        align-items: stretch;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        margin-top: 20px;
+    }
+
+
+    .steps .step .feature > *
+    {
+        font-size: 13px;
+
+        width: calc(50% - 10px);
+        padding: 12px 16px;
+    }
+
+
+    .steps .step .feature > * + *
+    {
+        margin-top: 0;
+        margin-left: auto;
+    }
+
+
+    .steps .step .feature .icon + div
+    {
+        width: calc(100% - 56px);
+    }
+
+
+    .steps .step .video
+    {
+        width: 100%;
+        margin-top: 24px;
+    }
+
+
+
+    /*--------------------
+        Our advantages
+    --------------------*/
+    .our_advantages
+    {
+        margin-bottom: 60px;
+        padding: 60px 0;
+    }
+
+
+    .our_advantages .block_title
+    {
+        font-size: var(--font_size_title);
+        line-height: calc(100% + 8px);
+
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+
+    .our_advantages .data
+    {
+        width: 100%;
+    }
+
+
+
+    .our_advantages .data .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+
+    .our_advantages .data .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .our_advantages .item
+    {
+        padding: 20px 24px;
+    }
+
+
+    .our_advantages .item .name
+    {
+        font-size: 18px;
+    }
+
+
+    .our_advantages .item .exp
+    {
+        font-size: var(--font_size);
+
+        margin-top: 16px;
+    }
+
+
+
+    /*----------------
+        Two visits
+    ----------------*/
+    .two_visits
+    {
+        margin-bottom: 140px;
+    }
+
+
+    .two_visits .data
+    {
+        padding: 40px 40px 136px;
+    }
+
+
+
+    .two_visits .info
+    {
+        width: 524px;
+    }
+
+
+    .two_visits .info .title
+    {
+        font-size: var(--font_size_title);
+        line-height: calc(100% + 8px);
+    }
+
+
+    .two_visits .info .items
+    {
+        margin-top: 28px;
+        padding-left: 0;
+    }
+
+
+    .two_visits .info .items b
+    {
+        font-size: 15px;
+
+        margin-bottom: 4px;
+    }
+
+
+
+    .two_visits .form
+    {
+        bottom: -80px;
+        left: 40px;
+
+        width: 680px;
+        max-width: calc(100% - 80px);
+        padding: 24px;
+    }
+
+
+    .two_visits .form .title
+    {
+        font-size: 18px;
+
+        margin-bottom: 16px;
+    }
+
+
+    .two_visits .form .line
+    {
+        width: calc(100% - 350px);
+    }
+
+
+    .two_visits .form .submit
+    {
+        width: 240px;
+    }
+
+
+    .two_visits .form .submit_btn
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .two_visits .img
+    {
+        right: 0;
+
+        width: 420px;
+    }
+
+
+
+    /*-------------------
+        USA standarts
+    -------------------*/
+    .USA_standarts
+    {
+        margin-bottom: 68px;
+    }
+
+
+    .USA_standarts .doctor
+    {
+        padding: 40px 24px 40px 200px;
+    }
+
+
+    .USA_standarts .doctor .photo
+    {
+        width: 220px;
+    }
+
+
+    .USA_standarts .doctor .info
+    {
+        padding: 0;
+    }
+
+
+    .USA_standarts .doctor .post
+    {
+        font-size: 16px;
+
+        margin-bottom: 12px;
+    }
+
+
+    .USA_standarts .doctor .name
+    {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+
+    .USA_standarts .doctor .award
+    {
+        font-size: 16px;
+        line-height: 120%;
+
+        margin-top: 20px;
+    }
+
+
+    .USA_standarts .doctor .text
+    {
+        font-size: var(--font_size);
+
+        width: 318px;
+        margin-top: 0;
+    }
+
+
+    .USA_standarts .doctor .text:before
+    {
+        top: -40px;
+        left: -108px;
+
+        width: 140px;
+        height: 84px;
+    }
+
+
+
+    .USA_standarts .slider
+    {
+        margin-top: 60px;
+    }
+
+
+    .USA_standarts .slider .data
+    {
+        padding-bottom: 100px;
+    }
+
+
+    .USA_standarts .slider .info
+    {
+        padding: 24px;
+    }
+
+
+    .USA_standarts .slider .title
+    {
+        font-size: 26px;
+    }
+
+
+    .USA_standarts .slider .desc
+    {
+        font-size: var(--font_size);
+    }
+
+
+
+    /*-------------
+        Doctors
+    -------------*/
+    .doctors
+    {
+        margin-bottom: 68px;
+        padding: 68px 0;
+    }
+
+
+    .doctors .info
+    {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+
+    .doctors .info .title
+    {
+        font-size: var(--font_size_title);
+        line-height: calc(100% + 8px);
+    }
+
+
+    .doctors .info .title span
+    {
+        display: block;
+    }
+
+
+    .doctors .info .desc
+    {
+        font-size: var(--font_size);
+
+        width: 600px;
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+
+    .doctors .slider
+    {
+        width: 100%;
+    }
+
+
+    .doctors .swiper-slide
+    {
+        visibility: visible;
+
+        width: 300px;
+
+        pointer-events: auto;
+
+        opacity: 1;
+    }
+
+
+    .doctors .doctor
+    {
+        padding: 24px;
+    }
+
+
+    .doctors .doctor .photo
+    {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+
+    .doctors .doctor .name
+    {
+        font-size: 18px;
+    }
+
+
+    .doctors .doctor .award
+    {
+        font-size: 13px;
+
+        margin-top: 20px;
+    }
+
+
+    .doctors .doctor .experience
+    {
+        font-size: 13px;
+
+        padding-top: 20px;
+    }
+
+
+    .doctors .controls
+    {
+        display: none;
+    }
+
+
+
+    /*-----------
+        Order
+    -----------*/
+    .order
+    {
+        margin-bottom: 68px;
+    }
+
+
+    .order .data
+    {
+        padding: 40px 24px 40px 220px;
+    }
+
+
+    .order .logo
+    {
+        left: 24px;
+
+        width: 148px;
+        height: 108px;
+    }
+
+
+    .order .info
+    {
+        width: calc(100% - 340px);
+    }
+
+
+    .order .title
+    {
+        font-size: var(--font_size_title);
+        line-height: calc(100% + 8px);
+    }
+
+
+    .order .desc
+    {
+        font-size: var(--font_size);
+
+        width: 324px;
+    }
+
+
+    .order .form
+    {
+        align-self: flex-end;
+
+        width: 300px;
+    }
+
+
+    .order .agree
+    {
+        font-size: 11px;
+
+        margin-top: 20px;
+    }
+
+
+
+    /*-------------
+        Results
+    -------------*/
+    .results
+    {
+        margin-bottom: 68px;
+    }
+
+
+    .results .swiper
+    {
+        padding: 0 68px;
+    }
+
+
+
+    .results .before_after
+    {
+        height: 280px;
+    }
+
+
+    .results .before_after .label
+    {
+        top: 12px;
+        left: 12px;
+
+        width: 68px;
+        padding: 4px;
+    }
+
+
+
+    .results .reviews
+    {
+        margin-top: 48px;
+    }
+
+
+    .results .reviews .logo
+    {
+        height: 48px;
+        padding: 0 20px;
+    }
+
+
+    .results .reviews .rating .val
+    {
+        font-size: 26px;
+        line-height: 20px;
+    }
+
+
+    .results .reviews .rating .count
+    {
+        font-size: 13px;
+
+        margin-left: 10px;
+    }
+
+
+
+    /*------------
+        prices
+    ------------*/
+    .prices
+    {
+        margin-bottom: 68px;
+        padding: 60px 0 68px;
+    }
+
+
+    .prices .item
+    {
+        padding: 24px;
+    }
+
+
+    .prices .item .info
+    {
+        width: calc(100% - 343px);
+    }
+
+
+    .prices .item .name
+    {
+        font-size: 18px;
+    }
+
+
+    .prices .item .features
+    {
+        font-size: 13px;
+
+        width: 488px;
+
+        column-gap: 40px;
+    }
+
+
+    .prices .item .price
+    {
+        font-size: var(--font_size_title);
+
+        width: 160px;
+    }
+
+
+
+    /*--------------------
+        Free admission
+    --------------------*/
+    .free_admission
+    {
+        margin-bottom: 140px;
+    }
+
+
+    .free_admission .data
+    {
+        padding: 40px 40px 136px;
+    }
+
+
+
+    .free_admission .info
+    {
+        width: 668px;
+    }
+
+
+    .free_admission .info .title
+    {
+        font-size: var(--font_size_title);
+        line-height: calc(100% + 8px);
+    }
+
+
+    .free_admission .info .items
+    {
+        margin-top: 28px;
+        padding-left: 0;
+    }
+
+
+    .free_admission .info .items b
+    {
+        font-size: 15px;
+
+        margin-bottom: 4px;
+    }
+
+
+
+    .free_admission .form
+    {
+        bottom: -80px;
+        left: 40px;
+
+        width: 680px;
+        max-width: calc(100% - 80px);
+        padding: 24px;
+    }
+
+
+    .free_admission .form .title
+    {
+        font-size: 18px;
+
+        margin-bottom: 16px;
+    }
+
+
+    .free_admission .form .line
+    {
+        width: calc(100% - 350px);
+    }
+
+
+    .free_admission .form .submit
+    {
+        width: 240px;
+    }
+
+
+    .free_admission .form .submit_btn
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .free_admission .img
+    {
+        right: 0;
+
+        width: 340px;
+    }
+
+
+
+    /*---------------------
+        Network clinics
+    ---------------------*/
+    .network_clinics
+    {
+        margin-bottom: 68px;
+    }
+
+
+    .network_clinics .title
+    {
+        font-size: var(--font_size_title);
+        line-height: calc(100% + 8px);
+
+        margin-bottom: 24px;
+    }
+
+
+    .network_clinics .desc
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .network_clinics .desc > * + *
+    {
+        margin-top: 20px;
+    }
+
+
+    .network_clinics .image
+    {
+        height: 340px;
+    }
+
+
+
+    /*--------------
+        Benefits
+    --------------*/
+    .benefits
+    {
+        margin-bottom: 60px;
+        padding: 60px 0;
+    }
+
+
+    .benefits .item
+    {
+        padding: 20px 24px;
+    }
+
+
+    .benefits .item .icon
+    {
+        width: 70px;
+        height: 70px;
+        margin-bottom: 20px;
+    }
+
+
+    .benefits .item .icon img
+    {
+        width: 40px;
+        height: 40px;
+    }
+
+
+    .benefits .item .name
+    {
+        font-size: 18px;
+    }
+
+
+    .benefits .item .desc
+    {
+        font-size: var(--font_size);
+
+        margin-top: 16px;
+    }
+
+
+
+    /*-------------------
+        Photo gallery
+    -------------------*/
+    .photo_gallery
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .photo_gallery .controls
+    {
+        display: none;
+
+        margin-bottom: 24px;
+    }
+
+
+    .photo_gallery .swiper-slide
+    {
+        width: 440px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info
+    {
+        padding: 24px 0;
+    }
+
+
+    .contacts_info .data
+    {
+        width: 280px;
+        padding: 24px;
+    }
+
+
+    .contacts_info .phone
+    {
+        font-size: 24px;
+    }
+
+
+    .contacts_info .messengers
+    {
+        font-size: var(--font_size);
+
+        margin-top: 16px;
+        margin-bottom: -8px;
+        margin-left: -24px;
+    }
+
+
+    .contacts_info .messengers > *
+    {
+        margin-bottom: 8px;
+        margin-left: 24px;
+    }
+
+
+    .contacts_info .location
+    {
+        font-size: 16px;
+
+        margin-top: 24px;
+    }
+
+
+    .contacts_info .work_time
+    {
+        font-size: 12px;
+
+        margin-top: 12px;
+    }
+
+
+    .contacts_info .work_time .holidays
+    {
+        font-size: inherit;
+    }
+
+
+    .contacts_info .site
+    {
+        font-size: 13px;
+
+        margin-top: 12px;
+    }
+
+
+    .contacts_info .parking
+    {
+        font-size: var(--font_size);
+
+        margin-top: 16px;
+    }
+
+
+    .contacts_info .btn
+    {
+        font-size: 16px;
+
+        margin-top: 28px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 48px 0 24px;
+    }
+
+
+    footer .copyright
+    {
+        font-size: 13px;
+    }
+
+
+    footer .privacy_policy_link
+    {
+        margin-top: 12px;
+    }
+
+
+    footer .requisites
+    {
+        margin-top: 8px;
+    }
+
+
+    footer .exp
+    {
+        font-size: 11px;
+    }
+}

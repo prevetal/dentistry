@@ -1,0 +1,17 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="check" clip-path="url(#clip0_10_2188)">
+<g id="Group">
+<circle id="Ellipse 67" cx="12" cy="12" r="8" fill="white" style="fill:white;fill-opacity:1;"/>
+<path id="Vector" d="M12 0C5.40891 0 0 5.40891 0 12C0 18.5911 5.40891 24 12 24C18.5911 24 24 18.5911 24 12C24 5.40891 18.5911 0 12 0ZM10.5478 17.4581L5.29284 12.2032L7.28137 10.2147L10.6398 13.5731L17.382 7.44413L19.2743 9.52467L10.5478 17.4581Z" fill="url(#paint0_linear_10_2188)" style=""/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_10_2188" x1="12" y1="2.69227e-06" x2="25.3803" y2="0.88869" gradientUnits="userSpaceOnUse">
+<stop stop-color="#1FB462" style="stop-color:#1FB462;stop-color:color(display-p3 0.1216 0.7059 0.3843);stop-opacity:1;"/>
+<stop offset="1" stop-color="#36CD32" style="stop-color:#36CD32;stop-color:color(display-p3 0.2098 0.8042 0.1977);stop-opacity:1;"/>
+</linearGradient>
+<clipPath id="clip0_10_2188">
+<rect width="24" height="24" fill="white" style="fill:white;fill-opacity:1;"/>
+</clipPath>
+</defs>
+</svg>
