@@ -4740,6 +4740,12 @@ header.fixed
 }
 
 
+.contacts_info .site a:hover
+{
+    text-decoration: underline;
+}
+
+
 .contacts_info .site .icon
 {
     display: block;
@@ -4839,6 +4845,12 @@ footer .privacy_policy_link a
 }
 
 
+footer .privacy_policy_link a:hover
+{
+    text-decoration: underline;
+}
+
+
 footer .requisites
 {
     font-size: 12px;
@@ -4883,6 +4895,12 @@ footer .creator img
     width: 24px;
     height: 23px;
     margin-left: 10px;
+}
+
+
+footer .creator a:hover
+{
+    text-decoration: underline;
 }
 
 
