@@ -17,6 +17,7 @@
     height: 61px;
     margin: 0;
 
+    transition: .2s linear;
     transform: none;
 
     color: #000;
@@ -60,6 +61,14 @@
     left: 2px;
 
     transform: rotate(180deg);
+}
+
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover
+{
+    color: #fff;
+    background: #000;
 }
 
 

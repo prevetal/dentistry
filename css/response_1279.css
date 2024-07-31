@@ -128,7 +128,7 @@
     }
 
 
-    header .menu_item > a
+    header .menu_item .btn
     {
         font-size: 15px;
     }

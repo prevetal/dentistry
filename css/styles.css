@@ -281,6 +281,12 @@ button
 /*------------
     Header
 ------------*/
+.header_wrap
+{
+    margin-bottom: 24px;
+}
+
+
 header
 {
     position: relative;
@@ -471,7 +477,7 @@ header .messengers a + a
 }
 
 
-header .messengers .icon
+header .messengers img
 {
     display: block;
 
@@ -489,9 +495,17 @@ header .consult_btn
     margin-left: auto;
     padding: 12px 15px;
 
+    transition: opacity .2s linear;
+
     color: #fff;
     border-radius: 5px;
     background: linear-gradient(94deg, #00b758 46.89%, #00d100 99.4%);
+}
+
+
+header .consult_btn:hover
+{
+    opacity: .8;
 }
 
 
@@ -509,7 +523,7 @@ header .menu
 }
 
 
-header .menu_item > a
+header .menu_item .btn
 {
     font-size: 17px;
     font-weight: 700;
@@ -522,13 +536,60 @@ header .menu_item > a
 }
 
 
+header .menu_item .btn:hover
+{
+    text-decoration: underline;
+}
+
+
+
+header.fixed
+{
+    position: fixed;
+
+    margin: 0;
+    padding: 20px 0;
+
+    -webkit-animation: moveDown .5s;
+            animation: moveDown .5s;
+}
+
+
+@-webkit-keyframes moveDown
+{
+    0%
+    {
+        -webkit-transform: translateY(-100%);
+                transform: translateY(-100%);
+    }
+}
+
+@-moz-keyframes moveDown
+{
+    0%
+    {
+        -webkit-transform: translateY(-100%);
+                transform: translateY(-100%);
+    }
+}
+
+@keyframes moveDown
+{
+    0%
+    {
+        -webkit-transform: translateY(-100%);
+                transform: translateY(-100%);
+    }
+}
+
+
 
 /*-----------------
     Mob. header
 -----------------*/
 .mob_header
 {
-    position: relative;
+    position: sticky;
     z-index: 9;
     top: 0;
     left: 0;
@@ -849,9 +910,17 @@ header .menu_item > a
     width: 100%;
     padding: 16px 28px;
 
+    transition: background .2s linear;
+
     color: #fff;
     border-radius: 5px;
     background: #282828;
+}
+
+
+.form .submit_btn:hover
+{
+    background: #000;
 }
 
 
@@ -869,6 +938,12 @@ header .menu_item > a
     color: currentColor;
 
     text-decoration-thickness: 1px;
+}
+
+
+.form .agree a:hover
+{
+    text-decoration: none;
 }
 
 
@@ -936,9 +1011,17 @@ header .menu_item > a
     margin-top: 40px;
     padding: 24px 38px;
 
+    transition: opacity .2s linear;
+
     color: #fff;
     border-radius: 8px;
     background: linear-gradient(94deg, #00b758 46.89%, #00d100 99.4%);
+}
+
+
+.first_section .info .btn:hover
+{
+    opacity: .8;
 }
 
 
@@ -1449,7 +1532,7 @@ header .menu_item > a
 {
     position: absolute;
     z-index: 3;
-    top: -8px;
+    top: 0;
     right: -21px;
 
     width: 75px;
@@ -1978,9 +2061,17 @@ header .menu_item > a
     margin-top: auto;
     padding: 16px 30px;
 
+    transition: opacity .2s linear;
+
     color: #fff;
     border-radius: 5px;
     background: linear-gradient(94deg, #00b758 46.89%, #00d100 99.4%);
+}
+
+
+.types .type .btn:hover
+{
+    opacity: .8;
 }
 
 
@@ -2809,6 +2900,12 @@ header .menu_item > a
 }
 
 
+.two_visits .form .submit_btn:hover
+{
+    background: #282828;
+}
+
+
 .two_visits .form .messengers
 {
     display: flex;
@@ -2823,10 +2920,12 @@ header .menu_item > a
 {
     display: block;
 
+    transition: opacity .2s linear;
     text-decoration: none;
 
     color: currentColor;
 }
+
 
 .two_visits .form .messengers a + a
 {
@@ -2834,12 +2933,18 @@ header .menu_item > a
 }
 
 
-.two_visits .form .messengers .icon
+.two_visits .form .messengers img
 {
     display: block;
 
     width: 30px;
     height: 30px;
+}
+
+
+.two_visits .form .messengers a:hover
+{
+    opacity: .75;
 }
 
 
@@ -3199,6 +3304,13 @@ header .menu_item > a
 }
 
 
+.doctors .slider .swiper-button-next:hover,
+.doctors .slider .swiper-button-prev:hover
+{
+    background: #000;
+}
+
+
 .doctors .doctor
 {
     display: flex;
@@ -3386,6 +3498,12 @@ header .menu_item > a
 }
 
 
+.order .form .submit_btn:hover
+{
+    background: #282828;
+}
+
+
 .order .agree
 {
     font-size: 12px;
@@ -3398,6 +3516,12 @@ header .menu_item > a
 .order .agree a
 {
     color: currentColor;
+}
+
+
+.order .agree a:hover
+{
+    text-decoration: none;
 }
 
 
@@ -4117,6 +4241,12 @@ header .menu_item > a
 }
 
 
+.free_admission .form .submit_btn:hover
+{
+    background: #282828;
+}
+
+
 .free_admission .form .messengers
 {
     display: flex;
@@ -4131,10 +4261,12 @@ header .menu_item > a
 {
     display: block;
 
+    transition: opacity .2s linear;
     text-decoration: none;
 
     color: currentColor;
 }
+
 
 .free_admission .form .messengers a + a
 {
@@ -4142,12 +4274,18 @@ header .menu_item > a
 }
 
 
-.free_admission .form .messengers .icon
+.free_admission .form .messengers img
 {
     display: block;
 
     width: 30px;
     height: 30px;
+}
+
+
+.free_admission .form .messengers a:hover
+{
+    opacity: .75;
 }
 
 
@@ -4632,9 +4770,17 @@ header .menu_item > a
     margin-top: 40px;
     padding: 12px 15px;
 
+    transition: opacity .2s linear;
+
     color: #fff;
     border-radius: 5px;
     background: linear-gradient(94deg, #00b758 46.89%, #00d100 99.4%);
+}
+
+
+.contacts_info .btn:hover
+{
+    opacity: .8;
 }
 
 

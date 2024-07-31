@@ -175,7 +175,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		e.preventDefault()
 
 		$('.mob_header .mob_menu_btn').removeClass('active')
-		$('body').removeClass('mlockenu_open')
+		$('body').removeClass('lock')
 		$('header').removeClass('show')
 		$('.overlay').fadeOut(300)
 	})
@@ -234,6 +234,18 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 window.addEventListener('load', function () {
+	// Fix. header
+	headerInit = true,
+	headerHeight = $('header').outerHeight()
+
+	$('header').wrap('<div class="header_wrap"></div>')
+	$('.header_wrap').height(headerHeight)
+
+	headerInit && $(window).scrollTop() > headerHeight
+		? $('header').addClass('fixed')
+		: $('header').removeClass('fixed')
+
+
 	// Aligning elements in the grid
 	document.querySelectorAll('.advantages .row').forEach(el => {
 		let styles = getComputedStyle(el)
@@ -250,6 +262,15 @@ window.addEventListener('load', function () {
 
 
 
+window.addEventListener('scroll', function () {
+	// Fix. header
+	typeof headerInit !== 'undefined' && headerInit && $(window).scrollTop() > headerHeight
+		? $('header').addClass('fixed')
+		: $('header').removeClass('fixed')
+})
+
+
+
 window.addEventListener('resize', function () {
 	WH = window.innerHeight || document.clientHeight || BODY.clientHeight
 
@@ -258,6 +279,22 @@ window.addEventListener('resize', function () {
 	if (typeof WW !== 'undefined' && WW != windowW) {
 		// Overwrite window width
 		WW = window.innerWidth || document.clientWidth || BODY.clientWidth
+
+
+		// Fix. header
+		headerInit = false
+		$('.header_wrap').height('auto')
+
+		setTimeout(() => {
+			headerInit   = true
+			headerHeight = $('header').outerHeight()
+
+			$('.header_wrap').height(headerHeight)
+
+			headerInit && $(window).scrollTop() > headerHeight
+				? $('header').addClass('fixed')
+				: $('header').removeClass('fixed')
+		}, 100)
 
 
 		// Aligning elements in the grid

@@ -10,6 +10,13 @@
     /*------------
         Header
     ------------*/
+    .header_wrap
+    {
+        height: auto !important;
+        margin: 0;
+    }
+
+
     header
     {
         position: fixed;
